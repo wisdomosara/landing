@@ -4,7 +4,7 @@ $email = "";
 if(isset($_POST['submit']))
 {
     $email = $_POST['email'];
-    $conn = new mysqli("localhost", "wisdom", "Ikhuoria2", "landing");
+    $conn = new mysqli("https://wisdommasterlanding.herokuapp.com/", "wisdom", "Ikhuoria2", "landing");
     $cmd = "INSERT into email value ('$email');";
     if(mysqli_query($conn, $cmd))
     {
@@ -25,7 +25,7 @@ if(isset($_POST['submit']))
 <div>
 <?php
 
-$conn = new mysqli("localhost", "wisdom", "Ikhuoria2", "landing");
+$conn = new mysqli("https://wisdommasterlanding.herokuapp.com/", "wisdom", "Ikhuoria2", "landing");
 $sql = "SELECT DISTINCT * FROM email";
 $result = $conn->query($sql);
 
