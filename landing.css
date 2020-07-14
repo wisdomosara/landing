@@ -1,0 +1,37 @@
+body{
+    margin:0
+}
+.main{
+    height: 50vw;
+    box-sizing: border-box
+}
+.upper img{
+    height:50vw!important
+}
+.lower img{
+    height:50vw !important
+}
+.lower{
+    position: relative;
+    top:0;
+    max-height: 100vh;
+    /* height: 100%; */
+}
+.upper{
+    position: relative;
+    top:-100%;
+    opacity: 0.8;
+    max-height: 100vh;
+    /* height: 100%; */
+}
+.write{
+    position: relative;
+    top:-200%;
+    height: 100%
+
+}
+.write img{
+    position: absolute;
+    right:10%;
+    top:217PX
+}
