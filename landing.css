@@ -2,7 +2,8 @@
 
 body,html{
     margin:0;
-    padding: 0
+    padding: 0;
+    background-color: #E5E5E5 !important;
 }
 h1,h2,h3,h4,h5{
     font-family: "Montserrat";
@@ -44,7 +45,6 @@ h4{
     top:0;
     opacity: 0.8;
     max-height: 100%;
-    margin-bottom: 100px;
 }
 .logo{
     font-family: "permanent Marker";
@@ -57,7 +57,7 @@ h4{
     position: relative;
     top:0;
     z-index:100;
-    height: 55vw;
+    height: 60vw;
 }
 input{
     margin: 0 !important;
@@ -84,11 +84,51 @@ input{
     background-color: #11508E;
 }
 #features h2{
-    font-size: 2.48vw !important;
+    font-size: 2.5vw !important;
     font-weight: bolder !important
 }
 #people{
     position: relative;
+}
+.text .line{
+    background-color: white;
+    width: 174px;
+}
+.people-item{
+    width:30%;
+
+}
+.arrowed{
+    background-color: white !important;
+    background-size: 100%;
+    padding: 20px 15%;
+    height:12vw;
+    position: relative;
+    margin-bottom: 2.3vw;
+} 
+.people-item h2{
+    font-size: 2vw !important;
+    color: white;
+}
+.people-item p{
+    color: white;
+}
+.arrowed::after{
+    content: " ";
+    width: 0px;
+    height: 0px;
+    border-top: 2vw solid white;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position: absolute;
+    left:45%;
+    top: 100%;
+    margin-bottom: 2vw
+}
+.arrowed p{
+    font-size: 1vw;
+    color: black !important
 }
 @media only screen and (max-width:601px){
     #mobile-hero{
@@ -145,7 +185,56 @@ input{
         font-weight: bold !important;
         margin-top: 20px !important
     }
-}
+    .lower, .upper {
+        display: none;
+    }
+    .people-flex{
+        flex-direction: column;
+    }
+    .people-item{
+        width:100% !important;
+    }
+    .people-intro h2{
+        color:black !important;
+        font-weight: bolder;
+    }
+    .people-intro p{
+        color:black !important;
+        font-size: 20px !important
+    }
+    .text .line{
+        background-color: #1976D2
+    }
+    .arrowed{
+        height:auto !important;
+        border:1px solid #B8B8B8;
+        margin-bottom: 30px;
+    }
+    .arrowed  img{
+        width: 20px;
+    }
+    .arrowed p{
+        font-size: 21px
+    }
+    .arrowed::after{
+        border-top: 20px solid white;
+        top:100% !important;
+        z-index:20
+    }
+    .peep{
+        width:108px !important;
+        height: 110px !important;
+
+    }
+    .details h2{
+        font-size: 21px !important;
+        color: black;
+    }
+    .details p{
+        font-size: 18px !important;
+        color: black
+    }
+  }
     
 }
 
