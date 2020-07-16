@@ -175,6 +175,17 @@ footer p{
     font-weight: normal !important;
     font-size: 21px !important;
 }
+.footer-forms{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-submit{
+    background-color: #19D275;
+    border-style: none;
+    outline: none;
+    color: white;
+}
 @media only screen and (max-width:601px){
     #mobile-hero{
         display: block;
@@ -312,6 +323,25 @@ footer p{
     footer p{
         font-weight: normal !important;
         font-size: 21px !important;
+    }
+    .footer-forms{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    footer input{
+        width: 100% !important
+    }
+    .footer-submit{
+        background-color: #19D275;
+        border-style: none;
+        outline: none;
+        color: white;
+    }
+    footer{
+        background-color: #11508E !important;
+        color: white !important
     }
   }
     
