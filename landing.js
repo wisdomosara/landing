@@ -27,9 +27,13 @@ owl.owlCarousel({
     }
 
 });
-$('.play').on('click',function(){
-    owl.trigger('play.owl.autoplay',[2000])
-})
-$('.stop').on('click',function(){
-    owl.trigger('stop.owl.autoplay')
-})
+
+
+    lightbox.option({
+      'resizeDuration': 100,
+      'wrapAround': true,
+      'showImageNumberLabel' : false,
+      'imageFadeDuration' : 200,
+      'FadeDuration':200
+
+    })

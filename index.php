@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css" type="text/css"/>
     <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" type="text/css">
     <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" type="text/css">
+    <link href="./lightbox2-2.11.3/dist/css/lightbox.css" rel="stylesheet" />
     <script src="./jquery-3.5.1.min.js"></script>
 
 </head>
@@ -40,7 +41,7 @@
                     </form>
                 </div>
                 <div class="main-flex2 col-12 col-sm-6">
-                    <img src="./images/Frame 30 4.png" width="50%;" class="float-right mr-4 shadow">
+                    <img src="./images/Frame 30 4.png" width="50%;" class="float-right mr-4">
                 </div>
             </div>
         </div>
@@ -63,14 +64,14 @@
         </div>
         
     </section>
-    <section id="features" class="pt-5">
+    <section id="features" class="pt-5 mt-5">
         <div class="container d-flex align-items-center flex-column">
             <h2 class="text-center">Features</h2>
             <div class="line text-center mb-5"></div>
         </div>
         <div class="container-fluid d-flex features-item flex-wrap align-items-center px-sm-5">
             <div class="col-12 col-sm-6">
-                <img src="./images/undraw_mobile_interface_wakp 1.png" width="100%" class="shadow-lg">
+                <img src="./images/undraw_mobile_interface_wakp 1.png" width="100%">
             </div>
             <div class="col-12 col-sm-6">
                 <h2>Clear & Simple User Interface</h2>
@@ -79,7 +80,7 @@
         </div>
         <div class="container-fluid d-flex features-item flex-wrap align-items-center px-sm-5" style="background-color:#F9F9F9">
             <div class="col-12 col-sm-6 order-sm-12">
-                <img src="./images/undraw_my_current_location_om7g 1.png" width="100%" class="shadow-lg">
+                <img src="./images/undraw_my_current_location_om7g 1.png" width="100%">
             </div>
             <div class="col-12 col-sm-6 order-sm-1 text-right">
                 <h2>Silent mode based on set locations</h2>
@@ -88,7 +89,7 @@
         </div>
         <div class="container-fluid d-flex features-item flex-wrap align-items-center px-sm-5">
             <div class="col-12 col-sm-6">
-                <img src="./images/undraw_chat_bot_kli5 1.png" width="100%" class="shadow-lg">
+                <img src="./images/undraw_chat_bot_kli5 1.png" width="100%">
             </div>
             <div class="col-12 col-sm-6">
                 <h2 >Phone auto-silent mode using noise analysis</h2>
@@ -97,7 +98,7 @@
         </div>
         <div class="container-fluid d-flex features-item flex-wrap align-items-center px-sm-5" style="background-color:#F9F9F9">
             <div class="col-12 col-sm-6 order-sm-12">
-                <img src="./images/undraw_calendar_dutt 1.png" width="100%" class="shadow-lg">
+                <img src="./images/undraw_calendar_dutt 1.png" width="100%">
             </div>
             <div class="col-12 col-sm-6 order-sm-1 text-right">
                 <h2 >Sync calendar events with app using personal emails</h2>
@@ -161,12 +162,30 @@
                     <div class="line text-center mb-5"></div>
             </div>
         <div class="owl-carousel container owl-theme">
-            <div class="item"> <img src="./images/Frame 34 2.png"> </div>
-            <div class="item"> <img src="./images/Frame 30 4.png"> </div>
-            <div class="item"> <img src="./images/Frame 23 4.png"> </div>
-            <div class="item"> <img src="./images/Frame 29 4.png"> </div>
-            <div class="item"> <img src="./images/Frame 31 6.png"> </div>
-            <div class="item"> <img src="./images/Frame 35 3.png"> </div>
+            <div class="item"> 
+                <a href="./images/Frame 34 2.png" data-lightbox="image-1">
+                    <img src="./images/Frame 34 2.png" class="slide1" id="slide1" width="100%"></a>
+            </div>
+            <div class="item"> 
+                    <a href="./images/Frame 31 5.png" data-lightbox="image-1">
+                        <img src="./images/Frame 31 5.png" class="slide1" id="slide1"></a>
+            </div>
+            <div class="item"> 
+                    <a href="./images/Frame 30 4.png" data-lightbox="image-1">
+                        <img src="./images/Frame 30 4.png" class="slide1" id="slide1"></a>
+            </div>
+            <div class="item"> 
+                    <a href="./images/Frame 23 4.png" data-lightbox="image-1">
+                        <img src="./images/Frame 23 4.png" class="slide1" id="slide1"></a>
+            </div>
+            <div class="item"> 
+                    <a href="./images/Frame 29 4.png" data-lightbox="image-1">
+                        <img src="./images/Frame 29 4.png" class="slide1" id="slide1"></a>
+            </div>
+            <div class="item"> 
+                    <a href="./images/Frame 35 3.png" data-lightbox="image-1">
+                        <img src="./images/Frame 35 3.png" class="slide1" id="slide1"></a>
+            </div>
           </div>
     </section>
     <footer class="container-fluid mt-5 pt-4">
@@ -195,6 +214,7 @@
     <script src="./jquery-3.5.1.min.js"></script>
     <script src="./OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
     <script src="./OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+    <script src="./lightbox2-2.11.3/dist/js/lightbox.js"></script>
     <script src="./popper.min.js"></script>
     <script src="./bootstrap-4.4.1-dist/js/bootstrap.bundle.min.js"></script>
     <script src="./landing.js"></script>
