@@ -1,4 +1,3 @@
-
 <!Doctype Html>
 <html lang="en">
 <head>
@@ -8,6 +7,10 @@
     <title>BeSilent</title>
     <link href="./landing.css" rel="stylesheet" type="text/css">
     <link href="./bootstrap-4.4.1-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css" type="text/css"/>
+    <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" type="text/css">
+    <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" type="text/css">
+    <script src="./jquery-3.5.1.min.js"></script>
 
 </head>
 <body>
@@ -43,29 +46,29 @@
         </div>
     </section>
     <section id="mobile-hero">
-        <div class="container py-3">
-            <h1 class="logo-mobile">BeSilent</h1>
+        <div class="mobile-top">
+            <div class="container py-3">
+                <h1 class="logo-mobile">BeSilent</h1>
+            </div>
+            <div class="container">
+                <h1 class="mb-3 text-center">Your personal automatic phone silent-mode app</h1>
+                <p class="mb-5 text-center">BeSilent automatically puts your phone on silent mode based on your location, especially during meetings, intterviews or in office,.</p>
+                <h1 class="mb-2 text-center">Coming Soon!!!</h1>
+                <h4 class="mb-3 text-center">Want to be among the first to launch the app?</h4>
+                <form method="post" action="./landing.php">
+                    <input type="email" name="email"  placeholder="Your email address" /><br>
+                    <input type="submit" name="submit" value="Get Notified" class="mobile-submit mt-3 mb-5" />
+                </form>
+            </div>
         </div>
-        <div class="container-fluid mobile-hero-img pb-3">
-            <img src="./images/f3f2fc6ca87084f9c1ee203a370be0c9 1.png" width="100%">
-        </div>
-        <div class="container">
-            <h1 class="mb-3 text-center">Your personal automatic phone silent-mode app</h1>
-            <p class="mb-5 text-center">BeSilent automatically puts your phone on silent mode based on your location, especially during meetings, intterviews or in office,.</p>
-            <h1 class="mb-2 text-center">Coming Soon!!!</h1>
-            <h4 class="mb-3 text-center">Want to be among the first to launch the app?</h4>
-            <form method="post" action="./landing.php">
-                <input type="email" name="email"  placeholder="Your email address" /><br>
-                <input type="submit" name="submit" value="Get Notified" class="mobile-submit mt-3 mb-5" />
-            </form>
-        </div>
+        
     </section>
-    <section id="features" class="my-4 py-3">
+    <section id="features">
         <div class="container d-flex align-items-center flex-column">
             <h2 class="text-center">Features</h2>
             <div class="line text-center mb-5"></div>
         </div>
-        <div class="container-fluid d-flex  flex-wrap align-items-center px-sm-5 mb-5">
+        <div class="container-fluid d-flex features-item flex-wrap align-items-center px-sm-5">
             <div class="col-12 col-sm-6">
                 <img src="./images/undraw_mobile_interface_wakp 1.png" width="100%">
             </div>
@@ -74,7 +77,7 @@
                 <p>Easy to navigate and interact with. It makes it easy for you to know what to do at every point in the app. Unnecessary elements are avoided. The app is straight-forward to make the experience a memorable one for you.</p>
             </div>
         </div>
-        <div class="container-fluid d-flex  flex-wrap align-items-center px-sm-5 mb-5" style="background-color:#F9F9F9">
+        <div class="container-fluid d-flex features-item flex-wrap align-items-center px-sm-5" style="background-color:#F9F9F9">
             <div class="col-12 col-sm-6 order-sm-12">
                 <img src="./images/undraw_my_current_location_om7g 1.png" width="100%">
             </div>
@@ -83,7 +86,7 @@
                 <p>You can set locations where on appearance in those locations, your phone automatically switches to silent mode. After leaving the location, it switches back to Ringer mode.</p>
             </div>
         </div>
-        <div class="container-fluid d-flex  flex-wrap align-items-center px-sm-5 mb-5">
+        <div class="container-fluid d-flex features-item flex-wrap align-items-center px-sm-5">
             <div class="col-12 col-sm-6">
                 <img src="./images/undraw_chat_bot_kli5 1.png" width="100%">
             </div>
@@ -92,7 +95,7 @@
                 <p>Office, meetings, interviews, corporate events and religious environements often have surrounding noise levels of less than 100dB. Using noise analysis, the phone detects your surrounding noise level and switches sutomatically to silent mode</p>
             </div>
         </div>
-        <div class="container-fluid d-flex  flex-wrap align-items-center px-sm-5 mb-5">
+        <div class="container-fluid d-flex features-item flex-wrap align-items-center px-sm-5" style="background-color:#F9F9F9">
             <div class="col-12 col-sm-6 order-sm-12">
                 <img src="./images/undraw_calendar_dutt 1.png" width="100%">
             </div>
@@ -112,7 +115,7 @@
         <div class="text">
             <div class="container people-intro d-flex align-items-center flex-column">
                 <h2 class="text-center text-white">People are excited!</h2>
-                <div class="line text-center mb-5"></div>
+                <div class="line text-center mb-2"></div>
                 <p class="text-white text-center mb-4">See what people have to say about this new app</p>
             </div>
             <div class="people-flex d-flex container justify-content-between">
@@ -124,7 +127,7 @@
                     <img src="./images/fabio-lucas-32co88SaiN4-unsplash.jpg" style="border-radius:50%; height:8vw; object-fit:cover; width:8vw " class="mb-2 peep">
                     <div class="details">
                         <h2 class="mb-2 text-center">Ray Hudson</h2>
-                        <p>Brand Manager, Google</p>
+                        <p class="text-center">Brand Manager, Google</p>
                     </div>
                 </div>
                 <div class="people-item d-flex flex-column align-items-center">
@@ -135,7 +138,7 @@
                         <img src="./images/thisisengineering-raeng-ntZM993INp0-unsplash.jpg" style="border-radius:50%; height:8vw; object-fit:cover; width:8vw " class="mb-2 peep">
                         <div class="details">
                             <h2 class="mb-2 text-center">Ahmed Sanni</h2>
-                            <p>Content Creator, BBC</p>
+                            <p class="text-center">Content Creator, BBC</p>
                         </div>
                 </div>
                 <div class="people-item d-flex flex-column align-items-center">
@@ -146,14 +149,43 @@
                         <img src="./images/mark-essien-e1580122566517.jpg" style="border-radius:50%; height:8vw; object-fit:cover; width:8vw " class="mb-2 peep">
                         <div class="details">
                             <h2 class="mb-2 text-center">Mark Essien</h2>
-                            <p>Lead Product Designer, HNG</p>
-                        </div>
+                            <p class="text-center">Lead Product Designer, HNG</p>
+	                        </div>
                 </div>
             </div>
         </div>
     </section>
+    <section id="preview">
+            <div class="container d-flex align-items-center flex-column">
+                    <h2 class="text-center">Preview</h2>
+                    <div class="line text-center mb-5"></div>
+            </div>
+        <div class="owl-carousel container owl-theme">
+            <div class="item"> <img src="./images/Phone11-pro-back.png"> </div>
+            <div class="item"> <img src="./images/Phone11-pro-back.png"> </div>
+            <div class="item"> <img src="./images/Phone11-pro-back.png"> </div>
+            <div class="item"> <img src="./images/Phone11-pro-back.png"> </div>
+            <div class="item"> <img src="./images/Phone11-pro-back.png"> </div>
+            <div class="item"> <img src="./images/Phone11-pro-back.png"> </div>
+            <div class="item"> <img src="./images/Phone11-pro-back.png"> </div>
+          </div>
+    </section>
+    <footer class="container mt-5">
+        <h2 class="text-center mb-3">Interesting Right? </h2>
+        <p class="mb-4 text-center">BeSilent offer these wide range of features and provides you with the best experience while using it. Make Sure not to miss the launching of the app. Enter Your email address below to get notified as soon as the app is available </p>
+        <form method="post" col text-center action="./landing.php">
+            <div class="row  forms"> 
+                <input type="email" name="email" placeholder="Your Email Address" >
+                <input class="submit" type="submit" name="submit" value="Get Notified">
+            </div>
+        </form>
+        
+    </footer>
     <script src="./jquery-3.5.1.min.js"></script>
+    <script src="./OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="./OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
     <script src="./popper.min.js"></script>
     <script src="./bootstrap-4.4.1-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./landing.js"></script>
 </body>
 </html>
