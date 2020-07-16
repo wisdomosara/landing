@@ -40,7 +40,7 @@
                     </form>
                 </div>
                 <div class="main-flex2 col-12 col-sm-6">
-                    <img src="./images/Group 119.png" width="50%;" class="float-right mr-4">
+                    <img src="./images/Frame 30 4.png" width="50%;" class="float-right mr-4 shadow">
                 </div>
             </div>
         </div>
@@ -63,14 +63,14 @@
         </div>
         
     </section>
-    <section id="features">
+    <section id="features" class="pt-5">
         <div class="container d-flex align-items-center flex-column">
             <h2 class="text-center">Features</h2>
             <div class="line text-center mb-5"></div>
         </div>
         <div class="container-fluid d-flex features-item flex-wrap align-items-center px-sm-5">
             <div class="col-12 col-sm-6">
-                <img src="./images/undraw_mobile_interface_wakp 1.png" width="100%">
+                <img src="./images/undraw_mobile_interface_wakp 1.png" width="100%" class="shadow-lg">
             </div>
             <div class="col-12 col-sm-6">
                 <h2>Clear & Simple User Interface</h2>
@@ -79,7 +79,7 @@
         </div>
         <div class="container-fluid d-flex features-item flex-wrap align-items-center px-sm-5" style="background-color:#F9F9F9">
             <div class="col-12 col-sm-6 order-sm-12">
-                <img src="./images/undraw_my_current_location_om7g 1.png" width="100%">
+                <img src="./images/undraw_my_current_location_om7g 1.png" width="100%" class="shadow-lg">
             </div>
             <div class="col-12 col-sm-6 order-sm-1 text-right">
                 <h2>Silent mode based on set locations</h2>
@@ -88,7 +88,7 @@
         </div>
         <div class="container-fluid d-flex features-item flex-wrap align-items-center px-sm-5">
             <div class="col-12 col-sm-6">
-                <img src="./images/undraw_chat_bot_kli5 1.png" width="100%">
+                <img src="./images/undraw_chat_bot_kli5 1.png" width="100%" class="shadow-lg">
             </div>
             <div class="col-12 col-sm-6">
                 <h2 >Phone auto-silent mode using noise analysis</h2>
@@ -97,7 +97,7 @@
         </div>
         <div class="container-fluid d-flex features-item flex-wrap align-items-center px-sm-5" style="background-color:#F9F9F9">
             <div class="col-12 col-sm-6 order-sm-12">
-                <img src="./images/undraw_calendar_dutt 1.png" width="100%">
+                <img src="./images/undraw_calendar_dutt 1.png" width="100%" class="shadow-lg">
             </div>
             <div class="col-12 col-sm-6 order-sm-1 text-right">
                 <h2 >Sync calendar events with app using personal emails</h2>
@@ -105,7 +105,7 @@
             </div>
         </div>
     </section>
-    <section id="people">
+    <section id="people" class="pt-xs-5 pt-sm-1">
         <div class="lower">
             <img src="./images/Vector (20).png">
         </div>
@@ -126,7 +126,7 @@
                     </div>
                     <img src="./images/fabio-lucas-32co88SaiN4-unsplash.jpg" style="border-radius:50%; height:8vw; object-fit:cover; width:8vw " class="mb-2 peep">
                     <div class="details">
-                        <h2 class="mb-2 text-center">Ray Hudson</h2>
+                        <h2 class="mb-1 text-center">Ray Hudson</h2>
                         <p class="text-center">Brand Manager, Google</p>
                     </div>
                 </div>
@@ -137,7 +137,7 @@
                         </div>
                         <img src="./images/thisisengineering-raeng-ntZM993INp0-unsplash.jpg" style="border-radius:50%; height:8vw; object-fit:cover; width:8vw " class="mb-2 peep">
                         <div class="details">
-                            <h2 class="mb-2 text-center">Ahmed Sanni</h2>
+                            <h2 class="mb-1 text-center">Ahmed Sanni</h2>
                             <p class="text-center">Content Creator, BBC</p>
                         </div>
                 </div>
@@ -148,38 +148,46 @@
                         </div>
                         <img src="./images/mark-essien-e1580122566517.jpg" style="border-radius:50%; height:8vw; object-fit:cover; width:8vw " class="mb-2 peep">
                         <div class="details">
-                            <h2 class="mb-2 text-center">Mark Essien</h2>
+                            <h2 class="mb-1 text-center">Mark Essien</h2>
                             <p class="text-center">Lead Product Designer, HNG</p>
 	                        </div>
                 </div>
             </div>
         </div>
     </section>
-    <section id="preview" class="mb-5 mt-5">
+    <section id="preview" class="mb-5">
             <div class="container d-flex align-items-center flex-column">
-                    <h2 class="text-center">Preview</h2>
+                    <h2 class="text-center font-weight-bolder">Preview</h2>
                     <div class="line text-center mb-5"></div>
             </div>
         <div class="owl-carousel container owl-theme">
-            <div class="item"> <img src="./images/Phone11-pro-back.png"> </div>
-            <div class="item"> <img src="./images/Phone11-pro-back.png"> </div>
-            <div class="item"> <img src="./images/Phone11-pro-back.png"> </div>
-            <div class="item"> <img src="./images/Phone11-pro-back.png"> </div>
-            <div class="item"> <img src="./images/Phone11-pro-back.png"> </div>
-            <div class="item"> <img src="./images/Phone11-pro-back.png"> </div>
-            <div class="item"> <img src="./images/Phone11-pro-back.png"> </div>
+            <div class="item"> <img src="./images/Frame 34 2.png"> </div>
+            <div class="item"> <img src="./images/Frame 30 4.png"> </div>
+            <div class="item"> <img src="./images/Frame 23 4.png"> </div>
+            <div class="item"> <img src="./images/Frame 29 4.png"> </div>
+            <div class="item"> <img src="./images/Frame 31 6.png"> </div>
+            <div class="item"> <img src="./images/Frame 35 3.png"> </div>
           </div>
     </section>
-    <footer class="container-fluid mt-5">
+    <footer class="container-fluid mt-5 pt-4">
         <div class="container">
                 <h2 class="text-center mb-3">Interesting Right? </h2>
             <p class="mb-4 text-center">BeSilent offer these wide range of features and provides you with the best experience while using it. Make Sure not to miss the launching of the app. Enter Your email address below to get notified as soon as the app is available </p>
             <form method="post" action="./landing.php">
-                <div class="footer-forms"> 
+                <div class="footer-forms mb-5"> 
                     <input type="email" class="footer-email" name="email" placeholder="Your Email Address" required>
-                    <input class="footer-submit" type="submit" name="submit" value="Get Notified required">
+                    <input class="footer-submit" type="submit" name="submit" value="Get Notified" required>
                 </div>
             </form>
+            <div class="container justify-content-center mb-4">
+                <div class="container icon-holder">
+                    <img src="./images/Icon awesome-facebook-f.png" class="ml-3">
+                    <img src="./images/Icon awesome-twitter.png" class="ml-3">
+                    <img src="./images/Icon awesome-pinterest-p.png" class="ml-3">
+                    <img src="./images/Icon awesome-linkedin-in.png" class="ml-3">
+                    <img src="./images/Icon awesome-instagram.png" class="ml-3">
+                </div>
+            </div>
         </div>
         
         

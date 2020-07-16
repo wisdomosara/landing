@@ -8,18 +8,12 @@ if(isset($_POST['submit']))
     $sql = "INSERT INTO email value ('$email')";
     if(mysqli_query($conn, $sql))
     {
-        echo "successfully";
+        echo "successful";
     }
     else 
     {
-        echo "not succeful";
+        echo "no";
     }
 }
 ?>
 
-<div>
-    <h1>
-    You'll be notified when the app gets launched thanks alot!
-    YEYYYY!!!
-</h1>
-</div>
