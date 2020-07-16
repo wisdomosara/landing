@@ -1,6 +1,7 @@
 
+    new WOW().init();
 
-
+    
 var owl = $('.owl-carousel');
 owl.owlCarousel({
     

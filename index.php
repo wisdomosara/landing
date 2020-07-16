@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" type="text/css">
     <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" type="text/css">
     <link href="./lightbox2-2.11.3/dist/css/lightbox.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./wow.js/css/libs/animate.css">
     <script src="./jquery-3.5.1.min.js"></script>
 
 </head>
@@ -34,7 +35,7 @@
                     <h1 class="mb-2 soon">Coming Soon !!!</h1>
                     <h4 class="mb-3">Want to be among the first to launch the app?</h4>
                     <form method="post" action="./landing.php">
-                        <div class="row forms"> 
+                        <div class="row forms wow tada"> 
                             <input type="email" name="email" placeholder="Your Email Address" required>
                             <input class="submit" type="submit" name="submit" value="Get Notified" required>
                         </div>
@@ -56,8 +57,8 @@
                 <p class="mb-5 text-center">BeSilent automatically puts your phone on silent mode based on your location, especially during meetings, intterviews or in office,.</p>
                 <h1 class="mb-2 text-center">Coming Soon!!!</h1>
                 <h4 class="mb-3 text-center">Want to be among the first to launch the app?</h4>
-                <form method="post" action="./landing.php">
-                    <input type="email" name="email"  placeholder="Your email address" required/><br>
+                <form method="post" class="wow tada" action="./landing.php">
+                    <input type="email" name="email"  placeholder="Your email address"  required/><br>
                     <input type="submit" name="submit" value="Get Notified" class="mobile-submit mt-3 mb-5" required/>
                 </form>
             </div>
@@ -69,26 +70,26 @@
             <h2 class="text-center">Features</h2>
             <div class="line text-center mb-5"></div>
         </div>
-        <div class="container-fluid d-flex features-item flex-wrap align-items-center px-sm-5">
-            <div class="col-12 col-sm-6">
+        <div class="container-fluid d-flex features-item flex-wrap align-items-center px-sm-5 wow bounceInDown">
+            <div class="col-12 col-sm-6 feature-pic">
                 <img src="./images/undraw_mobile_interface_wakp 1.png" width="100%">
             </div>
-            <div class="col-12 col-sm-6">
-                <h2>Clear & Simple User Interface</h2>
+            <div class="col-12 col-sm-6 ">
+                <h2>Clear & Simple UserInterface</h2>
                 <p>Easy to navigate and interact with. It makes it easy for you to know what to do at every point in the app. Unnecessary elements are avoided. The app is straight-forward to make the experience a memorable one for you.</p>
             </div>
         </div>
         <div class="container-fluid d-flex features-item flex-wrap align-items-center px-sm-5" style="background-color:#F9F9F9">
-            <div class="col-12 col-sm-6 order-sm-12">
+            <div class="col-12 col-sm-6 order-sm-12 feature-pic wow slideInRight" data-wow-duration="1s">
                 <img src="./images/undraw_my_current_location_om7g 1.png" width="100%">
             </div>
-            <div class="col-12 col-sm-6 order-sm-1 text-right">
+            <div class="col-12 col-sm-6 order-sm-1 text-right wow slideInLeft" data-wow-duration="1.5s">
                 <h2>Silent mode based on set locations</h2>
                 <p>You can set locations where on appearance in those locations, your phone automatically switches to silent mode. After leaving the location, it switches back to Ringer mode.</p>
             </div>
         </div>
-        <div class="container-fluid d-flex features-item flex-wrap align-items-center px-sm-5">
-            <div class="col-12 col-sm-6">
+        <div class="container-fluid d-flex features-item flex-wrap align-items-center px-sm-5 wow fadeInLeftBig" data-wow-duration="1s">
+            <div class="col-12 col-sm-6 feature-pic">
                 <img src="./images/undraw_chat_bot_kli5 1.png" width="100%">
             </div>
             <div class="col-12 col-sm-6">
@@ -96,8 +97,8 @@
                 <p>Office, meetings, interviews, corporate events and religious environements often have surrounding noise levels of less than 100dB. Using noise analysis, the phone detects your surrounding noise level and switches sutomatically to silent mode</p>
             </div>
         </div>
-        <div class="container-fluid d-flex features-item flex-wrap align-items-center px-sm-5" style="background-color:#F9F9F9">
-            <div class="col-12 col-sm-6 order-sm-12">
+        <div class="container-fluid d-flex features-item flex-wrap align-items-center px-sm-5 wow fadeInRightBig" data-wow-duration="1s" style="background-color:#F9F9F9">
+            <div class="col-12 col-sm-6 order-sm-12 feature-pic">
                 <img src="./images/undraw_calendar_dutt 1.png" width="100%">
             </div>
             <div class="col-12 col-sm-6 order-sm-1 text-right">
@@ -163,37 +164,37 @@
             </div>
         <div class="owl-carousel container owl-theme">
             <div class="item"> 
-                <a href="./images/Frame 34 2.png" data-lightbox="image-1">
-                    <img src="./images/Frame 34 2.png" class="slide1" id="slide1" width="100%"></a>
+                <a href="./images/Style-1.png" data-lightbox="image-1">
+                    <img src="./images/Style-1.png" class="slide1" id="slide1" width="100%"></a>
             </div>
             <div class="item"> 
-                    <a href="./images/Frame 31 5.png" data-lightbox="image-1">
-                        <img src="./images/Frame 31 5.png" class="slide1" id="slide1"></a>
+                    <a href="./images/Style-2.png" data-lightbox="image-1">
+                        <img src="./images/Style-2.png" class="slide1" id="slide1"></a>
             </div>
             <div class="item"> 
-                    <a href="./images/Frame 30 4.png" data-lightbox="image-1">
-                        <img src="./images/Frame 30 4.png" class="slide1" id="slide1"></a>
+                    <a href="./images/Style-3.png" data-lightbox="image-1">
+                        <img src="./images/Style-3.png" class="slide1" id="slide1"></a>
             </div>
             <div class="item"> 
-                    <a href="./images/Frame 23 4.png" data-lightbox="image-1">
-                        <img src="./images/Frame 23 4.png" class="slide1" id="slide1"></a>
+                    <a href="./images/Style-4.png" data-lightbox="image-1">
+                        <img src="./images/Style-4.png" class="slide1" id="slide1"></a>
             </div>
             <div class="item"> 
-                    <a href="./images/Frame 29 4.png" data-lightbox="image-1">
-                        <img src="./images/Frame 29 4.png" class="slide1" id="slide1"></a>
+                    <a href="./images/Style.png" data-lightbox="image-1">
+                        <img src="./images/Style.png" class="slide1" id="slide1"></a>
             </div>
             <div class="item"> 
-                    <a href="./images/Frame 35 3.png" data-lightbox="image-1">
-                        <img src="./images/Frame 35 3.png" class="slide1" id="slide1"></a>
+                    <a href="./images/Style-5.png" data-lightbox="image-1">
+                        <img src="./images/Style-5.png" class="slide1" id="slide1"></a>
             </div>
           </div>
     </section>
-    <footer class="container-fluid mt-5 pt-4">
+    <footer class="container-fluid mt-5 wow fadeIn pt-4" data-wow-duration="2s">
         <div class="container">
                 <h2 class="text-center mb-3">Interesting Right? </h2>
             <p class="mb-4 text-center">BeSilent offer these wide range of features and provides you with the best experience while using it. Make Sure not to miss the launching of the app. Enter Your email address below to get notified as soon as the app is available </p>
             <form method="post" action="./landing.php">
-                <div class="footer-forms mb-5"> 
+                <div class="footer-forms wow tada mb-5"> 
                     <input type="email" class="footer-email" name="email" placeholder="Your Email Address" required>
                     <input class="footer-submit" type="submit" name="submit" value="Get Notified" required>
                 </div>
@@ -214,6 +215,7 @@
     <script src="./jquery-3.5.1.min.js"></script>
     <script src="./OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
     <script src="./OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+    <script src="./wow.js/dist/wow.min.js"></script>
     <script src="./lightbox2-2.11.3/dist/js/lightbox.js"></script>
     <script src="./popper.min.js"></script>
     <script src="./bootstrap-4.4.1-dist/js/bootstrap.bundle.min.js"></script>

@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&family=Permanent+Marker&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,500;0,700;0,800;0,900;1,200&display=swap');
 body,html{
     margin:0;
     padding: 0;
@@ -47,10 +47,22 @@ h4{
     max-height: 100%;
 }
 .logo{
-    font-family: "permanent Marker";
+    font-family: 'Raleway';
     padding-bottom: 7vw !important;
     padding-left: 5% !important
     
+}
+.feature-pic{
+    transition: all 1s ease
+}
+.features-item:hover .feature-pic{
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086);
+  transition: all 0.5s ease
 }
 .main .text{
     padding: 20px;
@@ -106,7 +118,11 @@ h4{
 }
 .people-item{
     width:30%;
-
+    transition: all 1s ease;
+}
+.people-item:hover{
+    transform: scale(1.1);
+    transition: all 1s ease;
 }
 .arrowed{
     background-color: white !important;
@@ -166,7 +182,12 @@ h4{
 }
 .item img{
     width: 60% !important;
-    margin:0 auto !important
+    margin:0 auto !important;
+    transition: all 1s ease;
+}
+.item img:hover{
+    transform: scale(1.05);
+    transition: all 1s ease;
 }
 footer h2{
     font-weight: bolder !important;
@@ -216,7 +237,7 @@ footer{
         background-color: rgba(25, 118, 210, 0.8);
     }
     .logo-mobile{
-        font-family: "permanent Marker";
+        font-family: 'Raleway';
     }
     .main{
         display: none
