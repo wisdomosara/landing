@@ -34,8 +34,8 @@
                     <h4 class="mb-3">Want to be among the first to launch the app?</h4>
                     <form method="post" action="./landing.php">
                         <div class="row forms"> 
-                            <input type="email" name="email" placeholder="Your Email Address" >
-                            <input class="submit" type="submit" name="submit" value="Get Notified">
+                            <input type="email" name="email" placeholder="Your Email Address" required>
+                            <input class="submit" type="submit" name="submit" value="Get Notified" required>
                         </div>
                     </form>
                 </div>
@@ -56,8 +56,8 @@
                 <h1 class="mb-2 text-center">Coming Soon!!!</h1>
                 <h4 class="mb-3 text-center">Want to be among the first to launch the app?</h4>
                 <form method="post" action="./landing.php">
-                    <input type="email" name="email"  placeholder="Your email address" /><br>
-                    <input type="submit" name="submit" value="Get Notified" class="mobile-submit mt-3 mb-5" />
+                    <input type="email" name="email"  placeholder="Your email address" required/><br>
+                    <input type="submit" name="submit" value="Get Notified" class="mobile-submit mt-3 mb-5" required/>
                 </form>
             </div>
         </div>
@@ -155,7 +155,7 @@
             </div>
         </div>
     </section>
-    <section id="preview">
+    <section id="preview" class="mb-5 mt-5">
             <div class="container d-flex align-items-center flex-column">
                     <h2 class="text-center">Preview</h2>
                     <div class="line text-center mb-5"></div>
@@ -170,15 +170,18 @@
             <div class="item"> <img src="./images/Phone11-pro-back.png"> </div>
           </div>
     </section>
-    <footer class="container mt-5">
-        <h2 class="text-center mb-3">Interesting Right? </h2>
-        <p class="mb-4 text-center">BeSilent offer these wide range of features and provides you with the best experience while using it. Make Sure not to miss the launching of the app. Enter Your email address below to get notified as soon as the app is available </p>
-        <form method="post" col text-center action="./landing.php">
-            <div class="row  forms"> 
-                <input type="email" name="email" placeholder="Your Email Address" >
-                <input class="submit" type="submit" name="submit" value="Get Notified">
-            </div>
-        </form>
+    <footer class="container-fluid mt-5">
+        <div class="container">
+                <h2 class="text-center mb-3">Interesting Right? </h2>
+            <p class="mb-4 text-center">BeSilent offer these wide range of features and provides you with the best experience while using it. Make Sure not to miss the launching of the app. Enter Your email address below to get notified as soon as the app is available </p>
+            <form method="post" action="./landing.php">
+                <div class="footer-forms"> 
+                    <input type="email" class="footer-email" name="email" placeholder="Your Email Address" required>
+                    <input class="footer-submit" type="submit" name="submit" value="Get Notified required">
+                </div>
+            </form>
+        </div>
+        
         
     </footer>
     <script src="./jquery-3.5.1.min.js"></script>
