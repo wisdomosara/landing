@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>BeSilent</title>
+    <link rel="icon" type="image/jpeg" href="./images/" sizes="32X32">
     <link href="./landing.css" rel="stylesheet" type="text/css">
     <link href="./bootstrap-4.4.1-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css" type="text/css"/>
