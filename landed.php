@@ -19,8 +19,8 @@
             <div class="col-12 col-sm-6">
                 <h1 class="mb-2 text-white">Yaay!</h1>
                 <h1 class="mb-4 text-white">Thank You For Subscribing</h1>
-                <p class="text-white">You’ll be notified as soon as the app is launched</p>
-                <p class="text-white">Click <button onclick="window.location.href='index.php';">here</button> to go back to the landing page</p>
+                <h3 class="text-white">You’ll be notified as soon as the app is launched</h3>
+                <h3 class="text-white">Click <button style="background-color:white; color:black" onclick="window.location.href='index.php';">here</button> to go back to the landing page</h3>
             </div>
             <div class="col-12 col-sm-6">
                 <img src="./images/Group 194.png" width="100%">
