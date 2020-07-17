@@ -13,6 +13,7 @@
     <link href="./lightbox2-2.11.3/dist/css/lightbox.css" rel="stylesheet" />
     <link rel="stylesheet" href="./wow.js/css/libs/animate.css">
     <script src="./jquery-3.5.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/19f68977af.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -123,10 +124,10 @@
             <div class="people-flex d-flex container justify-content-between">
                 <div class="people-item d-flex flex-column align-items-center">
                     <div class="d-flex flex-column arrowed justify-content-center align-items-center">
-                        <img src="./images/quote.png" width="10px" class="pt-2">
+                        <i class="fas fa-quote-left" width="10px" ></i>
                     <p class="text-center pt-2">I’m excited that this product will help me switch my phone to silent mode during my meetings even when I forget to </p>
                     </div>
-                    <img src="./images/fabio-lucas-32co88SaiN4-unsplash.jpg" style="border-radius:50%; height:8vw; object-fit:cover; width:8vw " class="mb-2 peep">
+                    <img src="./images/fabio_lucas_32co88sa_6f0wP.jpg" style="border-radius:50%; height:8vw; object-fit:cover; width:8vw " class="mb-2 peep">
                     <div class="details">
                         <h2 class="mb-1 text-center">Ray Hudson</h2>
                         <p class="text-center">Brand Manager, Google</p>
@@ -134,10 +135,10 @@
                 </div>
                 <div class="people-item d-flex flex-column align-items-center">
                         <div class="d-flex flex-column arrowed justify-content-center align-items-center">
-                            <img src="./images/quote.png" width="10px" class="pt-2">
+                           <i class="fas fa-quote-left" width="10px" ></i>
                         <p class="text-center pt-2">Sometimes, I forget to put my phone on silent mode during my church services. I’m so glad this app is coming through for me.</p>
                         </div>
-                        <img src="./images/thisisengineering-raeng-ntZM993INp0-unsplash.jpg" style="border-radius:50%; height:8vw; object-fit:cover; width:8vw " class="mb-2 peep">
+                        <img src="./images/thisisengineering_ra_WZHeE.jpg" style="border-radius:50%; height:8vw; object-fit:cover; width:8vw " class="mb-2 peep">
                         <div class="details">
                             <h2 class="mb-1 text-center">Ahmed Sanni</h2>
                             <p class="text-center">Content Creator, BBC</p>
@@ -145,7 +146,7 @@
                 </div>
                 <div class="people-item d-flex flex-column align-items-center">
                         <div class="d-flex flex-column arrowed justify-content-center align-items-center">
-                            <img src="./images/quote.png" width="10px" class="pt-2">
+                            <i class="fas fa-quote-left" width="10px" ></i>
                         <p class="text-center pt-2">To use noise analysis to detect events where your phone should be on silent mode is quite interesting for me. I can’t wait.</p>
                         </div>
                         <img src="./images/mark-essien-e1580122566517.jpg" style="border-radius:50%; height:8vw; object-fit:cover; width:8vw " class="mb-2 peep">
@@ -164,28 +165,28 @@
             </div>
         <div class="owl-carousel container owl-theme">
             <div class="item"> 
-                <a href="./images/Style-1.png" data-lightbox="image-1">
-                    <img src="./images/Style-1.png" class="slide1" id="slide1" width="100%"></a>
+                <a href="./images/style_1.jpg" data-lightbox="image-1">
+                    <img src="./images/style_1.jpg" class="slide1" id="slide1" width="100%"></a>
             </div>
             <div class="item"> 
-                    <a href="./images/Style-2.png" data-lightbox="image-1">
-                        <img src="./images/Style-2.png" class="slide1" id="slide1"></a>
+                    <a href="./images/style_2.jpg" data-lightbox="image-1">
+                        <img src="./images/style_2.jpg" class="slide1" id="slide1"></a>
             </div>
             <div class="item"> 
-                    <a href="./images/Style-3.png" data-lightbox="image-1">
-                        <img src="./images/Style-3.png" class="slide1" id="slide1"></a>
+                    <a href="./images/style_3.jpg" data-lightbox="image-1">
+                        <img src="./images/style_3.jpg" class="slide1" id="slide1"></a>
             </div>
             <div class="item"> 
-                    <a href="./images/Style-4.png" data-lightbox="image-1">
-                        <img src="./images/Style-4.png" class="slide1" id="slide1"></a>
+                    <a href="./images/style_4.jpg" data-lightbox="image-1">
+                        <img src="./images/style_4.jpg" class="slide1" id="slide1"></a>
             </div>
             <div class="item"> 
-                    <a href="./images/Style.png" data-lightbox="image-1">
-                        <img src="./images/Style.png" class="slide1" id="slide1"></a>
+                    <a href="./images/style_5.jpg" data-lightbox="image-1">
+                        <img src="./images/style_5.jpg" class="slide1" id="slide1"></a>
             </div>
             <div class="item"> 
-                    <a href="./images/Style-5.png" data-lightbox="image-1">
-                        <img src="./images/Style-5.png" class="slide1" id="slide1"></a>
+                    <a href="./images/style.jpg" data-lightbox="image-1">
+                        <img src="./images/style.jpg" class="slide1" id="slide1"></a>
             </div>
           </div>
     </section>

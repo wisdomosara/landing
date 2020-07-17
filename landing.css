@@ -160,6 +160,19 @@ h4{
     top: 100%;
     margin-bottom: 2vw
 }
+.people-item:hover .arrowed{
+    background-color: #1976D2 !important;
+    color: white !important;
+    transition: all 1s ease;
+}
+.people-item:hover .arrowed p{
+    
+    color: white !important;
+   
+}
+.people-item:hover .arrowed::after{
+    border-top: 2vw solid #1976D2;
+}
 .arrowed p{
     font-size: 1vw;
     color: black !important
@@ -217,7 +230,7 @@ footer p{
 }
 footer{
     padding: 20px 5vw !important;
-    background-color: #11508E !important;
+    background-color: #1976D2 !important;
     color: white !important
 }
 .icon-holder{
