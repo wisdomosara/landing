@@ -72,7 +72,7 @@
             <h2 class="text-center">Features</h2>
             <div class="line text-center mb-5"></div>
         </div>
-        <div class="container-fluid d-flex features-item flex-wrap align-items-center px-sm-5 wow bounceInDown">
+        <div class="container-fluid d-flex features-item flex-wrap align-items-center px-sm-5 wow fadeInDown">
             <div class="col-12 col-sm-6 feature-pic">
                 <img src="./images/undraw_mobile_interface_wakp 1.png" width="100%">
             </div>
