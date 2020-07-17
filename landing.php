@@ -8,7 +8,7 @@ if(isset($_POST['submit']))
     $sql = "INSERT INTO email value ('$email')";
     if(mysqli_query($conn, $sql))
     {
-        echo "successful";
+        echo "<script>location.href = 'landed.php'</script>";
     }
     else 
     {
@@ -16,4 +16,3 @@ if(isset($_POST['submit']))
     }
 }
 ?>
-

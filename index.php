@@ -18,7 +18,7 @@
 <body>
     <section class="main">
         <div class="lower">
-            <img src="./images/Vector (19).png"  width="1700px">
+            <img src="./images/vector__19_.jpg"  width="1700px">
 
         </div>
         <div class="upper">
