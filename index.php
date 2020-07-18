@@ -53,8 +53,8 @@
                 <h1 class="logo-mobile">BeSilent</h1>
             </div>
             <div class="container wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
-                <h1 class="mb-3 text-center">Your personal automatic phone silent-mode app</h1>
-                <p class="mb-5 text-center">BeSilent automatically puts your phone on silent mode based on your location, especially during meetings, intterviews or in office,.</p>
+                <h1 class="mb-3">Your personal automatic phone silent-mode app</h1>
+                <p class="mb-5">BeSilent automatically puts your phone on silent mode based on your location, especially during meetings, intterviews or in office,.</p>
                 <h1 class="mb-2 text-center">Coming Soon!!!</h1>
                 <h4 class="mb-3 text-center">Want to be among the first to launch the app?</h4>
                 <form method="post" class="wow tada" data-wow-delay="1.5s" action="./landing.php">
