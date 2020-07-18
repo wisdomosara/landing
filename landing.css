@@ -62,12 +62,17 @@ h4{
     box-sizing: border-box
 }
 .upper img{
-    width: 100vw;
+    width: 100%;
     max-width:"100%" !important
+}
+@media only screen and (min-width:1500px){
+    .upper img{
+        width: 100vw;
+        max-width:"100vw" !important
+    }
 }
 .lower img{
     display:none;
-    width: 100vw;
     max-width:"100%" !important
 }
 .lower{

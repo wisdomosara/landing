@@ -35,7 +35,7 @@
                     <h1 class="logo"> BeSilent</h1>
                 </div>
                 <div class="main-flex d-flex">
-                    <div class="main-flex1 col-12 col-sm-6 mb-5 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1s">
+                    <div class="main-flex1 col-12 col-sm-6 mb-5 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.6s">
                         <h1>Your personal automatic phone silent-mode app</h1>
                         <p>BeSilent automatically puts your phone on silent mode based on your location, especially during meetings, interviews or in office.</p>
                         <h1 class="mb-2 soon">Coming Soon !!!</h1>
@@ -47,7 +47,7 @@
                             </div>
                         </form>
                     </div>
-                    <div class="main-flex2 col-12 col-sm-6 wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="1.5s">
+                    <div class="main-flex2 col-12 col-sm-6 wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="1s">
                         <img src="./images/Frame 30 4.png" width="50%;" class="float-right mr-4">
                     </div>
                 </div>

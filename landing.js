@@ -2,7 +2,6 @@ window.onload = function() {
     document.querySelector(".preload").classList.add("hide")
     document.querySelector(".mainn").style.display = "block"
     console.log("hidee")
-}
     new WOW().init();
 
     
@@ -42,3 +41,5 @@ owl.owlCarousel({
       'FadeDuration':200
 
     })
+}
+    
