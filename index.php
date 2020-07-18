@@ -35,19 +35,19 @@
                     <h1 class="logo"> BeSilent</h1>
                 </div>
                 <div class="main-flex d-flex">
-                    <div class="main-flex1 col-12 col-sm-6 mb-5 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+                    <div class="main-flex1 col-12 col-sm-6 mb-5 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="3s">
                         <h1>Your personal automatic phone silent-mode app</h1>
                         <p>BeSilent automatically puts your phone on silent mode based on your location, especially during meetings, interviews or in office.</p>
                         <h1 class="mb-2 soon">Coming Soon !!!</h1>
                         <h4 class="mb-3">Want to be among the first to launch the app?</h4>
                         <form method="post" action="./landing.php">
-                            <div class="row forms wow tada" data-wow-delay="1s"> 
+                            <div class="row forms wow tada" data-wow-delay="3s"> 
                                 <input type="email" class="big-email" name="email" placeholder="Your Email Address" required>
                                 <input class="submit" type="submit" name="submit" value="Get Notified" required>
                             </div>
                         </form>
                     </div>
-                    <div class="main-flex2 col-12 col-sm-6 wow fadeInRight" data-wow-duration="2.5s" data-wow-delay="1s">
+                    <div class="main-flex2 col-12 col-sm-6 wow fadeInRight" data-wow-duration="2.5s" data-wow-delay="3s">
                         <img src="./images/Frame 30 4.png" width="50%;" class="float-right mr-4">
                     </div>
                 </div>
