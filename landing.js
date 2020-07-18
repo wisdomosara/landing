@@ -1,4 +1,7 @@
-
+window.onload = function() {
+    document.querySelector(".preload").classList.add("hide")
+    console.log("hidee")
+}
     new WOW().init();
 
     
