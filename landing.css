@@ -13,6 +13,9 @@ p{
     font-family: "Montserrat";
     font-size:  1.5vw;
 }
+.mainn{
+    display: none;
+}
 .hide{
     display: none;
     z-index: -100;
