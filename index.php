@@ -80,26 +80,15 @@
             </div>
         </div>
         <div class="container-fluid d-flex features-item flex-wrap align-items-center px-sm-5" style="background-color:#F9F9F9">
-<<<<<<< HEAD
             <div class="col-12 col-sm-6 order-sm-12 feature-pic wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.3s">
                 <img src="./images/undraw_my_current_location_om7g 1.png" width="100%">
             </div>
             <div class="col-12 col-sm-6 order-sm-1 text-right wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.1s">
-=======
-            <div class="col-12 col-sm-6 order-sm-12 feature-pic wow fadeInRight" data-wow-duration="1s">
-                <img src="./images/undraw_my_current_location_om7g 1.png" width="100%">
-            </div>
-            <div class="col-12 col-sm-6 order-sm-1 text-right wow fadeInLeft" data-wow-duration="1.5s">
->>>>>>> 0f9b8a4b7ca49dbb8e40e244d86e91c4a05fc9ab
                 <h2>Silent mode based on set locations</h2>
                 <p>You can set locations where on appearance in those locations, your phone automatically switches to silent mode. After leaving the location, it switches back to Ringer mode.</p>
             </div>
         </div>
-<<<<<<< HEAD
         <div class="container-fluid d-flex features-item flex-wrap align-items-center px-sm-5 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.4s">
-=======
-        <div class="container-fluid d-flex features-item flex-wrap align-items-center px-sm-5 wow fadeInLeft" data-wow-duration="1s">
->>>>>>> 0f9b8a4b7ca49dbb8e40e244d86e91c4a05fc9ab
             <div class="col-12 col-sm-6 feature-pic">
                 <img src="./images/undraw_chat_bot_kli5 1.png" width="100%">
             </div>
@@ -108,11 +97,7 @@
                 <p>Office, meetings, interviews, corporate events and religious environements often have surrounding noise levels of less than 100dB. Using noise analysis, the phone detects your surrounding noise level and switches sutomatically to silent mode</p>
             </div>
         </div>
-<<<<<<< HEAD
         <div class="container-fluid d-flex features-item flex-wrap align-items-center px-sm-5 wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.4s" style="background-color:#F9F9F9">
-=======
-        <div class="container-fluid d-flex features-item flex-wrap align-items-center px-sm-5 wow fadeInRight" data-wow-duration="1s" style="background-color:#F9F9F9">
->>>>>>> 0f9b8a4b7ca49dbb8e40e244d86e91c4a05fc9ab
             <div class="col-12 col-sm-6 order-sm-12 feature-pic">
                 <img src="./images/undraw_calendar_dutt 1.png" width="100%">
             </div>
