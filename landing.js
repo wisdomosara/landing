@@ -3,7 +3,6 @@ window.onload = function() {
     document.querySelector(".mainn").style.display = "block"
     console.log("hidee")
     new WOW().init();
-
     
 var owl = $('.owl-carousel');
 owl.owlCarousel({

@@ -17,8 +17,6 @@ p{
     display: none;
 }
 .hide{
-    display: none;
-    z-index: -100;
     opacity: 0;
     pointer-events: none;
     transition: opacity 1s ease;
@@ -31,11 +29,12 @@ p{
     width: 100%;
     height: 100vh;
     pointer-events: none;
-    background-color: #11508E;
+    background-color: #1976D2;
     position: fixed;
     z-index: 100;
 }
 .preload h1{
+    font-size: 30px !important;
     position: relative;
     color:  white;
     animation: animation 1s infinite alternate
@@ -65,12 +64,16 @@ h4{
     width: 100%;
     max-width:"100%" !important
 }
+
+
 @media only screen and (min-width:1500px){
     .upper img{
         width: 100vw;
         max-width:"100vw" !important
     }
 }
+
+
 .lower img{
     display:none;
     max-width:"100%" !important
@@ -111,14 +114,18 @@ h4{
     height: 60vw;
 }
 #people .text{
-        padding: 20px;
-        position: relative;
-        top:0; 
-        height: 70vw;
+    padding: 20px;
+    position: relative;
+    top:0; 
+    height: 70vw;
 }
 .text input{
     margin: 0 !important;
-    padding:10px;
+    padding:8px;
+    /* width: 24vw;
+    height: 6vh !important; */
+    border-style: none;
+    outline: none;
 }
 .main-flex1 p{
     margin-bottom: 8vh;
@@ -131,7 +138,11 @@ h4{
     border-style: none;
     outline: none;
     color: white;
-    border-radius:7px;
+    /* width: 15vw !important; */
+    border-top-right-radius:5px;
+    border-top-left-radius:0 !important;
+    border-bottom-right-radius:5px;
+    border-bottom-left-radius:0 !important;
 }
 #mobile-hero{
     display: none
@@ -142,7 +153,7 @@ h4{
     background-color: #11508E;
 }
 #features h2{
-    font-size: 2.5vw !important;
+    font-size: 4vw;
     font-weight: bolder !important
 }
 .features-item{
@@ -181,11 +192,11 @@ h4{
     color: white;
 }
 .people-intro h2{
-    font-size: 32px !important;
+    font-size: 4vw;
     font-weight: bolder !important;
 }
 .people-intro p{
-    font-size: 21px !important;
+    font-size: 2vw !important;
     font-weight: normal !important;
 }
 .arrowed::after{
@@ -219,7 +230,7 @@ h4{
     color: black !important
 }
 .details h2 {
-    font-size: 1.5vw !important;
+    font-size: 1.8vw !important;
     font-weight: bolder;
 }
 .details p{
@@ -228,6 +239,10 @@ h4{
 }
 .details {
     margin-bottom: 30px;
+}
+#preview h2{
+    font-size: 4vw;
+    font-weight: bolder !important;
 }
 .item{
     display: flex;
@@ -245,11 +260,11 @@ h4{
 }
 footer h2{
     font-weight: bolder !important;
-    font-size: 32px !important;
+    font-size:4vw !important;
 }
 footer p{
     font-weight: normal !important;
-    font-size: 21px !important;
+    font-size: 2vw !important;
 }
 .footer-forms{
     display: flex;
@@ -258,8 +273,12 @@ footer p{
 }
 .footer-email{
     margin: 0 !important;
-    padding:10px;
-    width: 329px !important
+    padding:11px;
+    width: 329px !important;
+    border-top-left-radius:5px !important;
+    border-bottom-left-radius:5px !important;
+    border-style: none;
+    outline: none;
 }
 .footer-submit{
     background-color: #19D275;
@@ -267,7 +286,11 @@ footer p{
     outline: none;
     color: white;
     margin: 0 !important;
-    padding:12px;
+    padding:11px;
+    border-top-right-radius:5px;
+    border-top-left-radius:0 !important;
+    border-bottom-right-radius:5px;
+    border-bottom-left-radius:0 !important;
 }
 footer{
     padding: 20px 5vw !important;
@@ -317,7 +340,7 @@ footer{
         height: 70px;
         border-style: none;
         outline: none;
-        height: 8vh !important;
+        height: 40px !important;
         width: 100% !important;
         border-radius: 5px !important;
     }
@@ -328,7 +351,7 @@ footer{
         background-color: #19D275;
         color: white;
         padding: 5px 13px;
-        font-size: 21px;
+        font-size: 14px;
     }
     #features{
         padding:40px 20px !important;
@@ -382,7 +405,7 @@ footer{
         font-size: 15px
     }
     .arrowed::after{
-        border-top: 20px solid white;
+        border-top: 20px solid#1976D2;
         top:100% !important;
         z-index:20
     }
@@ -401,10 +424,12 @@ footer{
     }
     #people{
         padding-top: 30px !important;
-        background-color:  #E5E5E5 !important
+    }
+    .people-intro h2{
+        font-size: 22px !important
     }
     #people .text{
-        background-color:  #E5E5E5 !important
+        background-color:  rgb(255, 255, 255) !important
     }
     #people .text{
         padding: 20px;
@@ -415,6 +440,9 @@ footer{
     #preview{
         padding-top: 40px
     }
+    #preview h2{
+        font-size: 22px !important;
+    }
     footer h2{
         margin-top: 20px !important;
         font-weight: bolder !important;
@@ -423,7 +451,7 @@ footer{
     footer p{
         padding:5px 20px !important;
         font-weight: normal !important;
-        font-size: 15px !important;
+        font-size: 14px !important;
     }
     .footer-forms{
         display: flex;
@@ -432,7 +460,7 @@ footer{
         justify-content: center;
     }
     footer input{
-        height: 7vh !important;
+        height: 40px !important;
         width: 100% !important;
         border-radius: 5px !important;
     }
@@ -441,6 +469,9 @@ footer{
         border-style: none;
         outline: none;
         color: white;
+        font-size: 14px !important;
+        padding: 8px !important;
+        border-radius: 5px !important;
     }
     .footer-email{
         width: 100% !important;
@@ -456,7 +487,7 @@ footer{
 
 
 @media only screen and (max-width:1000px) {
-    @media only  screen and (min-width:750px) {
+    @media only  screen and (min-width:740px) {
     .logo{
         padding-bottom: 5vw !important;
         padding:10px 0
@@ -509,13 +540,48 @@ footer{
         background-color: #19D275;
         border-style: none;
         outline: none;
-        width:10vw !important;
         color: white;
-        border-top-right-radius:7px !important;
-        border-bottom-right-radius:7px !important;
+        border-top-right-radius:5px !important;
+        border-bottom-right-radius:5px !important;
     }
     .big-email{
-        border-top-left-radius:7px !important;
-        border-bottom-left-radius:7px !important;
+        border-top-left-radius:5px !important;
+        border-bottom-left-radius:5px !important;
+    }
+}
+@media only screen and (min-width:577px) {
+    @media only screen and (max-width:739px) {
+        .logo{
+            padding-bottom: 1.5vw !important;
+            padding:10px 0;
+            font-size: 2.2vw !important;
+            font-weight: bolder !important;
+
+        }
+        .main-flex{
+            padding: 0 2% !important;
+            margin:0 !important;
+        }
+        .main-flex1 h1{
+            margin-bottom: 1.5vw !important;
+            padding: 0  !important;
+            font-size: 2.2vw !important;
+        }
+        .main-flex1 p{
+            font-size: 1.6vw;
+            margin-bottom: 1vh !important;
+        }
+        .main-flex1 h4{
+            font-size: 2vw !important;
+            font-weight: normal !important;
+        }
+        .arrowed{
+            background-color: white !important;
+            background-size: 100%;
+            padding: 20px 15%;
+            height:15vw;
+            position: relative;
+            margin-bottom: 3vw;
+        } 
     }
 }
