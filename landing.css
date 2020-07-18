@@ -92,6 +92,7 @@ h4{
     border-style: none;
     outline: none;
     color: white;
+    border-radius:7px;
 }
 #mobile-hero{
     display: none
