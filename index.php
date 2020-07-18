@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>BeSilent</title>
+    <link rel="icon" type="image/jpg" href="./images/IMG-20200717-WA0021.jpg" sizes="32X32">
     <link href="./landing.css" rel="stylesheet" type="text/css">
     <link href="./bootstrap-4.4.1-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css" type="text/css"/>
@@ -14,13 +15,11 @@
     <link rel="stylesheet" href="./wow.js/css/libs/animate.css">
     <script src="./jquery-3.5.1.min.js"></script>
     <script src="https://kit.fontawesome.com/19f68977af.js" crossorigin="anonymous"></script>
-
 </head>
 <body>
     <section class="main">
         <div class="lower">
             <img src="./images/vector__19_.jpg"  width="1700px">
-
         </div>
         <div class="upper">
             <img src="./images/Vector (18).png" width="100%">
@@ -30,19 +29,19 @@
                 <h1 class="logo"> BeSilent</h1>
             </div>
             <div class="main-flex d-flex">
-                <div class="main-flex1 col-12 col-sm-6 mb-5">
+                <div class="main-flex1 col-12 col-sm-6 mb-5 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
                     <h1>Your personal automatic phone silent-mode app</h1>
                     <p>BeSilent automatically puts your phone on silent mode based on your location, especially during meetings, interviews or in office.</p>
                     <h1 class="mb-2 soon">Coming Soon !!!</h1>
                     <h4 class="mb-3">Want to be among the first to launch the app?</h4>
                     <form method="post" action="./landing.php">
-                        <div class="row forms wow tada"> 
-                            <input type="email" name="email" placeholder="Your Email Address" required>
+                        <div class="row forms wow tada" data-wow-delay="1s"> 
+                            <input type="email" class="big-email" name="email" placeholder="Your Email Address" required>
                             <input class="submit" type="submit" name="submit" value="Get Notified" required>
                         </div>
                     </form>
                 </div>
-                <div class="main-flex2 col-12 col-sm-6">
+                <div class="main-flex2 col-12 col-sm-6 wow fadeInRight" data-wow-duration="2.5s" data-wow-delay="1s">
                     <img src="./images/Frame 30 4.png" width="50%;" class="float-right mr-4">
                 </div>
             </div>
@@ -53,12 +52,12 @@
             <div class="container py-3">
                 <h1 class="logo-mobile">BeSilent</h1>
             </div>
-            <div class="container">
+            <div class="container wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
                 <h1 class="mb-3 text-center">Your personal automatic phone silent-mode app</h1>
                 <p class="mb-5 text-center">BeSilent automatically puts your phone on silent mode based on your location, especially during meetings, intterviews or in office,.</p>
                 <h1 class="mb-2 text-center">Coming Soon!!!</h1>
                 <h4 class="mb-3 text-center">Want to be among the first to launch the app?</h4>
-                <form method="post" class="wow tada" action="./landing.php">
+                <form method="post" class="wow tada" data-wow-delay="1.5s" action="./landing.php">
                     <input type="email" name="email"  placeholder="Your email address"  required/><br>
                     <input type="submit" name="submit" value="Get Notified" class="mobile-submit mt-3 mb-5" required/>
                 </form>
@@ -71,7 +70,7 @@
             <h2 class="text-center">Features</h2>
             <div class="line text-center mb-5"></div>
         </div>
-        <div class="container-fluid d-flex features-item flex-wrap align-items-center px-sm-5 wow bounceInDown">
+        <div class="container-fluid d-flex features-item flex-wrap align-items-center px-sm-5 wow fadeInDown">
             <div class="col-12 col-sm-6 feature-pic">
                 <img src="./images/undraw_mobile_interface_wakp 1.png" width="100%">
             </div>
@@ -81,15 +80,15 @@
             </div>
         </div>
         <div class="container-fluid d-flex features-item flex-wrap align-items-center px-sm-5" style="background-color:#F9F9F9">
-            <div class="col-12 col-sm-6 order-sm-12 feature-pic wow slideInRight" data-wow-duration="1s">
+            <div class="col-12 col-sm-6 order-sm-12 feature-pic wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.3s">
                 <img src="./images/undraw_my_current_location_om7g 1.png" width="100%">
             </div>
-            <div class="col-12 col-sm-6 order-sm-1 text-right wow slideInLeft" data-wow-duration="1.5s">
+            <div class="col-12 col-sm-6 order-sm-1 text-right wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.1s">
                 <h2>Silent mode based on set locations</h2>
                 <p>You can set locations where on appearance in those locations, your phone automatically switches to silent mode. After leaving the location, it switches back to Ringer mode.</p>
             </div>
         </div>
-        <div class="container-fluid d-flex features-item flex-wrap align-items-center px-sm-5 wow fadeInLeftBig" data-wow-duration="1s">
+        <div class="container-fluid d-flex features-item flex-wrap align-items-center px-sm-5 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.4s">
             <div class="col-12 col-sm-6 feature-pic">
                 <img src="./images/undraw_chat_bot_kli5 1.png" width="100%">
             </div>
@@ -98,7 +97,7 @@
                 <p>Office, meetings, interviews, corporate events and religious environements often have surrounding noise levels of less than 100dB. Using noise analysis, the phone detects your surrounding noise level and switches sutomatically to silent mode</p>
             </div>
         </div>
-        <div class="container-fluid d-flex features-item flex-wrap align-items-center px-sm-5 wow fadeInRightBig" data-wow-duration="1s" style="background-color:#F9F9F9">
+        <div class="container-fluid d-flex features-item flex-wrap align-items-center px-sm-5 wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.4s" style="background-color:#F9F9F9">
             <div class="col-12 col-sm-6 order-sm-12 feature-pic">
                 <img src="./images/undraw_calendar_dutt 1.png" width="100%">
             </div>
@@ -190,12 +189,12 @@
             </div>
           </div>
     </section>
-    <footer class="container-fluid mt-5 wow fadeIn pt-4" data-wow-duration="2s">
+    <footer class="container-fluid mt-5 wow fadeIn pt-4" data-wow-duration="1.5s" data-wow-delay="0.5s">
         <div class="container">
                 <h2 class="text-center mb-3">Interesting Right? </h2>
             <p class="mb-4 text-center">BeSilent offer these wide range of features and provides you with the best experience while using it. Make Sure not to miss the launching of the app. Enter Your email address below to get notified as soon as the app is available </p>
             <form method="post" action="./landing.php">
-                <div class="footer-forms wow tada mb-5"> 
+                <div class="footer-forms wow tada mb-5" data-wow-delay="1s"> 
                     <input type="email" class="footer-email" name="email" placeholder="Your Email Address" required>
                     <input class="footer-submit" type="submit" name="submit" value="Get Notified" required>
                 </div>

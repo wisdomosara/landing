@@ -32,6 +32,7 @@ h4{
     max-width:"100%" !important
 }
 .lower img{
+    display:none;
     width: 100vw;
     max-width:"100%" !important
 }
@@ -43,7 +44,7 @@ h4{
 .upper{
     position: absolute;
     top:0;
-    opacity: 0.8;
+    opacity: 1;
     max-height: 100%;
 }
 .logo{
@@ -247,7 +248,7 @@ footer{
     }
     .mobile-top{
         position: relative;
-        background-color: rgba(25, 118, 210, 0.8);
+        background-color: rgba(25, 118, 210, 0.95);
     }
     .logo-mobile{
         font-family: 'Raleway';
@@ -260,11 +261,11 @@ footer{
         margin: 0 !important
     }
     #mobile-hero h1{
-        font-size: 32px !important;
+        font-size: 28px !important;
         font-weight: bolder !important
     }
     #mobile-hero p, #mobile-hero h4{
-        font-size: 21px !important;
+        font-size: 16px !important;
         font-weight: normal
     }
     #mobile-hero input{
@@ -276,18 +277,21 @@ footer{
         height: 70px;
         border-style: none;
         outline: none;
+        height: 8vh !important;
+        width: 100% !important;
+        border-radius: 5px !important;
     }
     input::placeholder {
-        font-size: 21px;
+        font-size: 16px;
     }
     .mobile-submit{
         background-color: #19D275;
         color: white;
-        padding: 16px 53px;
+        padding: 5px 13px;
         font-size: 21px;
     }
     #features{
-        padding:40px 30px !important;
+        padding:40px 20px !important;
     }
     .features-item{
         padding-top: 20px !important;
@@ -297,11 +301,11 @@ footer{
     }
     
      #features p{
-        font-size: 21px !important;
+        font-size: 15px !important;
         text-align: center !important;
     }
     #features h2{
-        font-size: 32px !important;
+        font-size: 22px !important;
         text-align: center !important;
         font-weight: bold !important;
         margin-top: 20px !important
@@ -321,7 +325,7 @@ footer{
     }
     .people-intro p{
         color:black !important;
-        font-size: 20px !important
+        font-size: 15px !important
     }
     .text .line{
         background-color: #1976D2
@@ -335,7 +339,7 @@ footer{
         width: 20px;
     }
     .arrowed p{
-        font-size: 21px
+        font-size: 15px
     }
     .arrowed::after{
         border-top: 20px solid white;
@@ -352,7 +356,7 @@ footer{
         color: black;
     }
     .details p{
-        font-size: 18px !important;
+        font-size: 16px !important;
         color: black
     }
     #people{
@@ -374,12 +378,12 @@ footer{
     footer h2{
         margin-top: 20px !important;
         font-weight: bolder !important;
-        font-size: 32px !important;
+        font-size: 22px !important;
     }
     footer p{
         padding:5px 20px !important;
         font-weight: normal !important;
-        font-size: 21px !important;
+        font-size: 15px !important;
     }
     .footer-forms{
         display: flex;
@@ -388,7 +392,9 @@ footer{
         justify-content: center;
     }
     footer input{
-        width: 100% !important
+        height: 7vh !important;
+        width: 100% !important;
+        border-radius: 5px !important;
     }
     .footer-submit{
         background-color: #19D275;
@@ -459,4 +465,17 @@ footer{
         position: relative;
         margin-bottom: 3vw;
     } 
+    .submit{
+        background-color: #19D275;
+        border-style: none;
+        outline: none;
+        width:10vw !important;
+        color: white;
+        border-top-right-radius:7px !important;
+        border-bottom-right-radius:7px !important;
+    }
+    .big-email{
+        border-top-left-radius:7px !important;
+        border-bottom-left-radius:7px !important;
+    }
 }
