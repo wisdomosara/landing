@@ -47,8 +47,8 @@
                             </div>
                         </form>
                     </div>
-                    <div class="main-flex2 col-12 col-sm-6 wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="1s">
-                        <img src="./images/Frame 30 4.png" width="50%;" class="float-right mr-4">
+                    <div class="main-flex2 col-12 col-sm-6 hero-pic wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="1s">
+                        <img src="./images/Frame 30 4.png" width="50%;" class="float-right  mr-4">
                     </div>
                 </div>
             </div>

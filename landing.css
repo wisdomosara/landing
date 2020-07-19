@@ -52,6 +52,7 @@ h1{
 h4{
     font-size: 1.3vw !important
 }
+
 .main-flex{
     padding: 2vh 3% 10px 3% !important;
     margin:0 !important;
@@ -100,9 +101,11 @@ h4{
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: animation 3s infinite alternate
+
 }
 .feature-pic img{
-    width: 70% !important
+    width: 70% !important;
 }
 .features-item:hover .feature-pic{
     box-shadow:
@@ -368,7 +371,17 @@ footer{
         margin-bottom: 30px !important;
         box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.1) !important
     }
+    .feature-pic img{
+        width: 100% !important;
+    }
+    .feature-pic{
+        transition: all 1s ease;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation: none
     
+    }
      #features p{
         font-size: 15px !important;
         text-align: center !important;
