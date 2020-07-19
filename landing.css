@@ -96,7 +96,13 @@ h4{
     
 }
 .feature-pic{
-    transition: all 1s ease
+    transition: all 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feature-pic img{
+    width: 70% !important
 }
 .features-item:hover .feature-pic{
     box-shadow:
@@ -122,8 +128,6 @@ h4{
 .text input{
     margin: 0 !important;
     padding:8px;
-    /* width: 24vw;
-    height: 6vh !important; */
     border-style: none;
     outline: none;
 }
@@ -138,7 +142,6 @@ h4{
     border-style: none;
     outline: none;
     color: white;
-    /* width: 15vw !important; */
     border-top-right-radius:5px;
     border-top-left-radius:0 !important;
     border-bottom-right-radius:5px;
@@ -153,13 +156,16 @@ h4{
     background-color: #11508E;
 }
 #features h2{
-    font-size: 4vw;
+    font-size: 2vw;
     font-weight: bolder !important
 }
 .features-item{
     padding-top: 20px;
     padding-bottom: 20px ;
     margin-bottom: 100px 
+}
+.features-item p{
+    font-size: 1.2vw !important
 }
 #people{
     position: relative;
@@ -192,11 +198,11 @@ h4{
     color: white;
 }
 .people-intro h2{
-    font-size: 4vw;
+    font-size: 2vw;
     font-weight: bolder !important;
 }
 .people-intro p{
-    font-size: 2vw !important;
+    font-size: 1.4vw !important;
     font-weight: normal !important;
 }
 .arrowed::after{
@@ -230,7 +236,7 @@ h4{
     color: black !important
 }
 .details h2 {
-    font-size: 1.8vw !important;
+    font-size: 1.5vw !important;
     font-weight: bolder;
 }
 .details p{
@@ -241,7 +247,7 @@ h4{
     margin-bottom: 30px;
 }
 #preview h2{
-    font-size: 4vw;
+    font-size: 2vw;
     font-weight: bolder !important;
 }
 .item{
@@ -260,11 +266,11 @@ h4{
 }
 footer h2{
     font-weight: bolder !important;
-    font-size:4vw !important;
+    font-size:2vw !important;
 }
 footer p{
     font-weight: normal !important;
-    font-size: 2vw !important;
+    font-size: 1.2vw !important;
 }
 .footer-forms{
     display: flex;

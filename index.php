@@ -78,7 +78,7 @@
             </div>
             <div class="container-fluid d-flex features-item flex-wrap align-items-center px-sm-5 wow fadeInDown">
                 <div class="col-12 col-sm-6 feature-pic">
-                    <img src="./images/undraw_mobile_interface_wakp 1.png" width="100%">
+                    <img src="./images/undraw_mobile_interface_wakp 1.png" width="50%">
                 </div>
                 <div class="col-12 col-sm-6 ">
                     <h2>Clear & Simple UserInterface</h2>
@@ -87,7 +87,7 @@
             </div>
             <div class="container-fluid d-flex features-item flex-wrap align-items-center px-sm-5" style="background-color:#F9F9F9">
                 <div class="col-12 col-sm-6 order-sm-12 feature-pic wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.3s">
-                    <img src="./images/undraw_my_current_location_om7g 1.png" width="100%">
+                    <img src="./images/undraw_my_current_location_om7g 1.png" width="50%">
                 </div>
                 <div class="col-12 col-sm-6 order-sm-1 text-right wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.1s">
                     <h2>Silent mode based on set locations</h2>
@@ -96,7 +96,7 @@
             </div>
             <div class="container-fluid d-flex features-item flex-wrap align-items-center px-sm-5 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.4s">
                 <div class="col-12 col-sm-6 feature-pic">
-                    <img src="./images/undraw_chat_bot_kli5 1.png" width="100%">
+                    <img src="./images/undraw_chat_bot_kli5 1.png" width="50%">
                 </div>
                 <div class="col-12 col-sm-6">
                     <h2 >Phone auto-silent mode using noise analysis</h2>
@@ -105,7 +105,7 @@
             </div>
             <div class="container-fluid d-flex features-item flex-wrap align-items-center px-sm-5 wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.4s" style="background-color:#F9F9F9">
                 <div class="col-12 col-sm-6 order-sm-12 feature-pic">
-                    <img src="./images/undraw_calendar_dutt 1.png" width="100%">
+                    <img src="./images/undraw_calendar_dutt 1.png" width="50%">
                 </div>
                 <div class="col-12 col-sm-6 order-sm-1 text-right">
                     <h2 >Sync calendar events with app using personal emails</h2>
