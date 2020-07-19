@@ -22,7 +22,7 @@
                 <h4 class="text-white">Click <button onclick="window.location.href='index.php';">here</button> to go back to the landing page</h4>
             </div>
             <div class="col-12 col-sm-6">
-                <img src="./images/Group 194.png" width="100%">
+                <img src="./images/thanks.png" width="100%">
             </div>
         </div>
     </div>    
